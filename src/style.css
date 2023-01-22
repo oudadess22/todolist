@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(
+      90deg,
+      rgba(48, 16, 255, 1) 0%,
+      rgba(100, 115, 255, 1) 100%
+    );
+  }
+.divlst{
+    border:  2px solid black;
+    text-align: center;
+    width: 500px;
+    margin:150px auto;
+    border-radius: 15px;
+    padding-bottom: 32px;
+    background: white;
+}
+h1:hover{
+    color: blue;
+    text-decoration: underline;
+}
+p{
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+.valider{
+    background-color:green;
+    color: white;
+}
+table{
+    margin: auto;
+}
+.lst-input {
+    width: 85px;
+    color: black;
+    margin: 6px;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    background: linear-gradient(
+        90deg,
+        rgba(17, 122, 255, 1) 0%,
+        rgba(20, 159, 255, 1) 100%
+      );
+      cursor: pointer;
+      text-transform: capitalize;
+}
+.lsts-input {
+    border-radius: 0 4px 4px 0;
+    width: 85px;
+    color: black;
+    margin: 6px;
+    background: linear-gradient(
+        90deg,
+        rgba(17, 122, 255, 1) 0%,
+        rgba(20, 159, 255, 1) 100%
+      );
+      border: none;
+      cursor: pointer;
+      text-transform: capitalize;
+  }
+
